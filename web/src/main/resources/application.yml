@@ -1,0 +1,10 @@
+server:
+  port: 9080
+
+spring.mvc.view.prefix: /WEB-INF/jsp/
+spring.mvc.view.suffix: .jsp
+logging:
+  level: info
+
+remote.serverName: localhost:8081
+

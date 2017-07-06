@@ -1,0 +1,7 @@
+com\asiainfo\service\IGoodsService.class
+com\asiainfo\service\GoodsServiceImpl.class
+com\asiainfo\controller\GoodsController.class
+com\asiainfo\GoodsApplication.class
+com\asiainfo\pojo\GoodsQueryModel.class
+com\asiainfo\dao\GoodsDao.class
+com\asiainfo\pojo\GoodsModel.class

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.asiainfo.dao.GoodsDao">
+    <resultMap id="goodsModel" type="GM">
+        <id column="id" property="id"></id>
+        <result column="uuid" property="uuid"></result>
+        <result column="name" property="name"></result>
+        <result column="img_path" property="imgPath"></result>
+        <result column="description" property="description"></result>
+        <result column="gmt_create" jdbcType="TIMESTAMP" property="gmtCreate"></result>
+        <result column="gmt_modified" jdbcType="TIMESTAMP" property="gmtModified"></result>
+    </resultMap>
+
+    <select id="getById" parameterType="int" resultMap="goodsModel">
+        select id,uuid,name,img_path,description,gmt_create,gmt_modified
+        from td_goods where id = #{id}
+    </select>
+
+    <select id="getByUuid" parameterType="String" resultMap="goodsModel">
+        select id,uuid,name,img_path,description,gmt_create,gmt_modified
+        from td_goods where uuid = #{uuid}
+    </select>
+
+    <select id="getByConditionPage" parameterType="GQM" resultMap="goodsModel">
+        select id,uuid,name,img_path,description,gmt_create,gmt_modified
+        from td_goods
+        <where>
+            <if test="id != null and id != ''">
+                id = #{id}
+            </if>
+            <if test="uuid != null and uuid != ''">
+                and uuid = #{uuid}
+            </if>
+            <if test="name != null and name != ''">
+                and name = #{name}
+            </if>
+            <if test="imgPath != null and imgPath != ''">
+                and img_path = #{imgPath}
+            </if>
+            <if test="description != null and description != ''">
+                and description = #{description}
+            </if>
+
+        </where>
+
+    </select>
+
+    <insert id="add" parameterType="GM"
+            useGeneratedKeys="true" keyProperty="id">
+        insert into td_goods(uuid,name,img_path,description,gmt_create,gmt_modified)
+        values(#{uuid},#{name},#{imgPath},#{description},#{gmtCreate,jdbcType=TIMESTAMP},#{gmtModified,jdbcType=TIMESTAMP})
+    </insert>
+
+    <update id="update" parameterType="GM">
+        update td_goods
+        <set>
+            <if test="uuid != null and uuid != ''">
+                uuid = #{uuid},
+            </if>
+            <if test="name != null and name != ''">
+                name = #{name},
+            </if>
+            <if test="imgPath != null and imgPath != ''">
+                img_path = #{imgPath},
+            </if>
+            <if test="description != null and description != ''">
+                description = #{description},
+            </if>
+            <if test="gmtCreate != null ">
+                gmt_create = #{gmtCreate},
+            </if>
+            <if test="gmtModified != null ">
+                gmt_modified = #{gmtModified}
+            </if>
+        </set>
+        where id = #{id}
+    </update>
+
+    <delete id="delete" parameterType="int">
+        delete from td_goods where id=#{id}
+    </delete>
+
+    <delete id="deleteByIdList">
+        delete from td_goods where id in
+        <foreach collection="list" open="(" close=")" separator="," item="id">
+            #{id}
+        </foreach>
+    </delete>
+</mapper>

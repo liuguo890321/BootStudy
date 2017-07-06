@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/bootStudy" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/littleBird" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/littleBird/src/main/java/com/asiainfo/pojo/GoodsModel.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/littleBird/src/main/java/com/asiainfo/pojo/GoodsQueryModel.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

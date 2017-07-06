@@ -1,0 +1,336 @@
+2017-07-04 17:14:50.220  INFO 6844 --- [restartedMain] com.asiainfo.dao.GoodsDaoTest            : Starting GoodsDaoTest on liuguo-PC with PID 6844 (D:\IdeaWorkSpace\BootStudy\littleBird\target\test-classes started by Administrator in D:\IdeaWorkSpace\BootStudy)
+2017-07-04 17:14:50.220  INFO 6844 --- [restartedMain] com.asiainfo.dao.GoodsDaoTest            : No active profile set, falling back to default profiles: default
+2017-07-04 17:14:50.225  INFO 6844 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@e8fb34a: startup date [Tue Jul 04 17:14:50 CST 2017]; root of context hierarchy
+2017-07-04 17:14:51.132  WARN 6844 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'goodsDao' and 'com.asiainfo.dao.GoodsDao' mapperInterface. Bean already defined with the same name!
+2017-07-04 17:14:51.133  WARN 6844 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.asiainfo.dao]' package. Please check your configuration.
+2017-07-04 17:14:51.327  INFO 6844 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8083 (http)
+2017-07-04 17:14:51.328  INFO 6844 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2017-07-04 17:14:51.328  INFO 6844 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.15
+2017-07-04 17:14:51.363  INFO 6844 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-07-04 17:14:51.364  INFO 6844 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1139 ms
+2017-07-04 17:14:51.402  INFO 6844 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-07-04 17:14:51.403  INFO 6844 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-07-04 17:14:51.403  INFO 6844 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-07-04 17:14:51.403  INFO 6844 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-07-04 17:14:51.403  INFO 6844 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-07-04 17:14:51.698  INFO 6844 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@e8fb34a: startup date [Tue Jul 04 17:14:50 CST 2017]; root of context hierarchy
+2017-07-04 17:14:51.708  INFO 6844 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/goods/],methods=[POST]}" onto public java.lang.String com.asiainfo.controller.GoodsController.add(com.asiainfo.pojo.GoodsModel) throws java.io.UnsupportedEncodingException
+2017-07-04 17:14:51.708  INFO 6844 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/goods/{id}],methods=[GET]}" onto public com.asiainfo.pojo.GoodsModel com.asiainfo.controller.GoodsController.getById(int)
+2017-07-04 17:14:51.710  INFO 6844 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-07-04 17:14:51.711  INFO 6844 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-07-04 17:14:51.720  INFO 6844 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-04 17:14:51.721  INFO 6844 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-04 17:14:51.734  INFO 6844 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-04 17:14:51.777  INFO 6844 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2017-07-04 17:14:51.832  INFO 6844 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-07-04 17:14:51.833  INFO 6844 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2017-07-04 17:14:51.836  INFO 6844 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2017-07-04 17:14:51.850  INFO 6844 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8083 (http)
+2017-07-04 17:14:51.854  INFO 6844 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} inited
+2017-07-04 17:14:51.862  INFO 6844 --- [restartedMain] com.asiainfo.dao.GoodsDaoTest            : GoodsModel{id=17, uuid='29700c86-17ec-458e-9d9b-6403e6dc5ae3', name='刘', imgPath='123.jpg', description='刘', gmtCreate='Tue Jul 04 10:09:06 CST 2017', gmtModified=Tue Jul 04 10:09:06 CST 2017}
+2017-07-04 17:14:51.864  INFO 6844 --- [restartedMain] com.asiainfo.dao.GoodsDaoTest            : Started GoodsDaoTest in 1.783 seconds (JVM running for 55.351)
+2017-07-04 17:15:09.918  INFO 6636 --- [restartedMain] com.asiainfo.dao.GoodsDaoTest            : Starting GoodsDaoTest on liuguo-PC with PID 6636 (D:\IdeaWorkSpace\BootStudy\littleBird\target\test-classes started by Administrator in D:\IdeaWorkSpace\BootStudy)
+2017-07-04 17:15:09.920  INFO 6636 --- [restartedMain] com.asiainfo.dao.GoodsDaoTest            : No active profile set, falling back to default profiles: default
+2017-07-04 17:15:10.073  INFO 6636 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@119f979a: startup date [Tue Jul 04 17:15:10 CST 2017]; root of context hierarchy
+2017-07-04 17:15:11.337  WARN 6636 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'goodsDao' and 'com.asiainfo.dao.GoodsDao' mapperInterface. Bean already defined with the same name!
+2017-07-04 17:15:11.338  WARN 6636 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.asiainfo.dao]' package. Please check your configuration.
+2017-07-04 17:15:14.970  INFO 6636 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8083 (http)
+2017-07-04 17:15:15.029  INFO 6636 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2017-07-04 17:15:15.057  INFO 6636 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.15
+2017-07-04 17:15:15.602  INFO 6636 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-07-04 17:15:15.602  INFO 6636 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5561 ms
+2017-07-04 17:15:15.774  INFO 6636 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-07-04 17:15:15.894  INFO 6636 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-07-04 17:15:15.895  INFO 6636 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-07-04 17:15:15.896  INFO 6636 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-07-04 17:15:15.896  INFO 6636 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-07-04 17:15:17.330  INFO 6636 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@119f979a: startup date [Tue Jul 04 17:15:10 CST 2017]; root of context hierarchy
+2017-07-04 17:15:17.384  INFO 6636 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/goods/],methods=[POST]}" onto public java.lang.String com.asiainfo.controller.GoodsController.add(com.asiainfo.pojo.GoodsModel) throws java.io.UnsupportedEncodingException
+2017-07-04 17:15:17.385  INFO 6636 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/goods/{id}],methods=[GET]}" onto public com.asiainfo.pojo.GoodsModel com.asiainfo.controller.GoodsController.getById(int)
+2017-07-04 17:15:17.387  INFO 6636 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-07-04 17:15:17.388  INFO 6636 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-07-04 17:15:17.419  INFO 6636 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-04 17:15:17.419  INFO 6636 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-04 17:15:17.465  INFO 6636 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-04 17:15:17.715  INFO 6636 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2017-07-04 17:15:17.784  INFO 6636 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-07-04 17:15:17.785  INFO 6636 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2017-07-04 17:15:17.791  INFO 6636 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2017-07-04 17:15:17.849  INFO 6636 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8083 (http)
+2017-07-04 17:15:17.899  INFO 6636 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2017-07-04 17:15:18.102  INFO 6636 --- [restartedMain] com.asiainfo.dao.GoodsDaoTest            : GoodsModel{id=17, uuid='29700c86-17ec-458e-9d9b-6403e6dc5ae3', name='刘', imgPath='123.jpg', description='刘', gmtCreate='Tue Jul 04 10:09:06 CST 2017', gmtModified=Tue Jul 04 10:09:06 CST 2017}
+2017-07-04 17:15:18.106  INFO 6636 --- [restartedMain] com.asiainfo.dao.GoodsDaoTest            : Started GoodsDaoTest in 9.338 seconds (JVM running for 10.554)
+2017-07-04 17:15:39.324  INFO 6636 --- [Thread-7] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@119f979a: startup date [Tue Jul 04 17:15:10 CST 2017]; root of context hierarchy
+2017-07-04 17:15:39.332  INFO 6636 --- [Thread-7] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-07-04 17:15:39.332  INFO 6636 --- [Thread-7] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2017-07-04 17:15:39.339  INFO 6636 --- [Thread-7] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2017-07-04 17:15:40.555 ERROR 6636 --- [restartedMain] o.s.boot.SpringApplication               : Application startup failed
+
+java.lang.IllegalStateException: Failed to load property source from location 'classpath:/application.yml'
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.loadIntoGroup(ConfigFileApplicationListener.java:465) ~[spring-boot-1.5.4.RELEASE.jar:1.5.4.RELEASE]
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:454) ~[spring-boot-1.5.4.RELEASE.jar:1.5.4.RELEASE]
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.load(ConfigFileApplicationListener.java:375) ~[spring-boot-1.5.4.RELEASE.jar:1.5.4.RELEASE]
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.addPropertySources(ConfigFileApplicationListener.java:214) ~[spring-boot-1.5.4.RELEASE.jar:1.5.4.RELEASE]
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.postProcessEnvironment(ConfigFileApplicationListener.java:184) ~[spring-boot-1.5.4.RELEASE.jar:1.5.4.RELEASE]
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.onApplicationEnvironmentPreparedEvent(ConfigFileApplicationListener.java:171) ~[spring-boot-1.5.4.RELEASE.jar:1.5.4.RELEASE]
+	at org.springframework.boot.context.config.ConfigFileApplicationListener.onApplicationEvent(ConfigFileApplicationListener.java:157) ~[spring-boot-1.5.4.RELEASE.jar:1.5.4.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:167) ~[spring-context-4.3.9.RELEASE.jar:4.3.9.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139) ~[spring-context-4.3.9.RELEASE.jar:4.3.9.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:122) ~[spring-context-4.3.9.RELEASE.jar:4.3.9.RELEASE]
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:74) ~[spring-boot-1.5.4.RELEASE.jar:1.5.4.RELEASE]
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54) ~[spring-boot-1.5.4.RELEASE.jar:1.5.4.RELEASE]
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:325) [spring-boot-1.5.4.RELEASE.jar:1.5.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:296) [spring-boot-1.5.4.RELEASE.jar:1.5.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118) [spring-boot-1.5.4.RELEASE.jar:1.5.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107) [spring-boot-1.5.4.RELEASE.jar:1.5.4.RELEASE]
+	at com.asiainfo.dao.GoodsDaoTest.main(GoodsDaoTest.java:29) [test-classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_101]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_101]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_101]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_101]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-1.5.4.RELEASE.jar:1.5.4.RELEASE]
+Caused by: org.yaml.snakeyaml.scanner.ScannerException: mapping values are not allowed here
+ in 'reader', line 57, column 10:
+    D:
+     ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchValue(ScannerImpl.java:871) ~[snakeyaml-1.17.jar:na]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:360) ~[snakeyaml-1.17.jar:na]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:226) ~[snakeyaml-1.17.jar:na]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:557) ~[snakeyaml-1.17.jar:na]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:157) ~[snakeyaml-1.17.jar:na]
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:147) ~[snakeyaml-1.17.jar:na]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:224) ~[snakeyaml-1.17.jar:na]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:155) ~[snakeyaml-1.17.jar:na]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:246) ~[snakeyaml-1.17.jar:na]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:237) ~[snakeyaml-1.17.jar:na]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:225) ~[snakeyaml-1.17.jar:na]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:155) ~[snakeyaml-1.17.jar:na]
+	at org.yaml.snakeyaml.composer.Composer.composeDocument(Composer.java:122) ~[snakeyaml-1.17.jar:na]
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:84) ~[snakeyaml-1.17.jar:na]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getData(BaseConstructor.java:104) ~[snakeyaml-1.17.jar:na]
+	at org.yaml.snakeyaml.Yaml$1.next(Yaml.java:471) ~[snakeyaml-1.17.jar:na]
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:160) ~[spring-beans-4.3.9.RELEASE.jar:4.3.9.RELEASE]
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:138) ~[spring-beans-4.3.9.RELEASE.jar:4.3.9.RELEASE]
+	at org.springframework.boot.env.YamlPropertySourceLoader$Processor.process(YamlPropertySourceLoader.java:101) ~[spring-boot-1.5.4.RELEASE.jar:1.5.4.RELEASE]
+	at org.springframework.boot.env.YamlPropertySourceLoader.load(YamlPropertySourceLoader.java:58) ~[spring-boot-1.5.4.RELEASE.jar:1.5.4.RELEASE]
+	at org.springframework.boot.env.PropertySourcesLoader.load(PropertySourcesLoader.java:127) ~[spring-boot-1.5.4.RELEASE.jar:1.5.4.RELEASE]
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.doLoadIntoGroup(ConfigFileApplicationListener.java:479) ~[spring-boot-1.5.4.RELEASE.jar:1.5.4.RELEASE]
+	at org.springframework.boot.context.config.ConfigFileApplicationListener$Loader.loadIntoGroup(ConfigFileApplicationListener.java:462) ~[spring-boot-1.5.4.RELEASE.jar:1.5.4.RELEASE]
+	... 21 common frames omitted
+
+2017-07-04 17:15:57.695  INFO 9056 --- [restartedMain] com.asiainfo.dao.GoodsDaoTest            : Starting GoodsDaoTest on liuguo-PC with PID 9056 (D:\IdeaWorkSpace\BootStudy\littleBird\target\test-classes started by Administrator in D:\IdeaWorkSpace\BootStudy)
+2017-07-04 17:15:57.697  INFO 9056 --- [restartedMain] com.asiainfo.dao.GoodsDaoTest            : No active profile set, falling back to default profiles: default
+2017-07-04 17:15:57.778  INFO 9056 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7a6e61cf: startup date [Tue Jul 04 17:15:57 CST 2017]; root of context hierarchy
+2017-07-04 17:15:58.785  WARN 9056 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'goodsDao' and 'com.asiainfo.dao.GoodsDao' mapperInterface. Bean already defined with the same name!
+2017-07-04 17:15:58.786  WARN 9056 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.asiainfo.dao]' package. Please check your configuration.
+2017-07-04 17:16:01.004  INFO 9056 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8083 (http)
+2017-07-04 17:16:01.022  INFO 9056 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2017-07-04 17:16:01.024  INFO 9056 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.15
+2017-07-04 17:16:01.149  INFO 9056 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-07-04 17:16:01.150  INFO 9056 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3377 ms
+2017-07-04 17:16:01.388  INFO 9056 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-07-04 17:16:01.396  INFO 9056 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-07-04 17:16:01.397  INFO 9056 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-07-04 17:16:01.397  INFO 9056 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-07-04 17:16:01.397  INFO 9056 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-07-04 17:16:02.284  INFO 9056 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7a6e61cf: startup date [Tue Jul 04 17:15:57 CST 2017]; root of context hierarchy
+2017-07-04 17:16:02.343  INFO 9056 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/goods/],methods=[POST]}" onto public java.lang.String com.asiainfo.controller.GoodsController.add(com.asiainfo.pojo.GoodsModel) throws java.io.UnsupportedEncodingException
+2017-07-04 17:16:02.344  INFO 9056 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/goods/{id}],methods=[GET]}" onto public com.asiainfo.pojo.GoodsModel com.asiainfo.controller.GoodsController.getById(int)
+2017-07-04 17:16:02.347  INFO 9056 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-07-04 17:16:02.347  INFO 9056 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-07-04 17:16:02.380  INFO 9056 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-04 17:16:02.381  INFO 9056 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-04 17:16:02.419  INFO 9056 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-04 17:16:02.667  INFO 9056 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2017-07-04 17:16:02.738  INFO 9056 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-07-04 17:16:02.740  INFO 9056 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2017-07-04 17:16:02.746  INFO 9056 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2017-07-04 17:16:02.803  INFO 9056 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8083 (http)
+2017-07-04 17:16:02.851  INFO 9056 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2017-07-04 17:16:03.055  INFO 9056 --- [restartedMain] com.asiainfo.dao.GoodsDaoTest            : GoodsModel{id=17, uuid='29700c86-17ec-458e-9d9b-6403e6dc5ae3', name='刘', imgPath='123.jpg', description='刘', gmtCreate='Tue Jul 04 10:09:06 CST 2017', gmtModified=Tue Jul 04 10:09:06 CST 2017}
+2017-07-04 17:16:03.059  INFO 9056 --- [restartedMain] com.asiainfo.dao.GoodsDaoTest            : Started GoodsDaoTest in 5.828 seconds (JVM running for 6.451)
+2017-07-04 17:17:51.832  INFO 9056 --- [Thread-7] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7a6e61cf: startup date [Tue Jul 04 17:15:57 CST 2017]; root of context hierarchy
+2017-07-04 17:17:51.838  INFO 9056 --- [Thread-7] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-07-04 17:17:51.839  INFO 9056 --- [Thread-7] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2017-07-04 17:17:51.849  INFO 9056 --- [Thread-7] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2017-07-04 17:17:52.368  INFO 9056 --- [restartedMain] com.asiainfo.dao.GoodsDaoTest            : Starting GoodsDaoTest on liuguo-PC with PID 9056 (D:\IdeaWorkSpace\BootStudy\littleBird\target\test-classes started by Administrator in D:\IdeaWorkSpace\BootStudy)
+2017-07-04 17:17:52.369  INFO 9056 --- [restartedMain] com.asiainfo.dao.GoodsDaoTest            : No active profile set, falling back to default profiles: default
+2017-07-04 17:17:52.375  INFO 9056 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@434db82d: startup date [Tue Jul 04 17:17:52 CST 2017]; root of context hierarchy
+2017-07-04 17:17:53.026  WARN 9056 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'goodsDao' and 'com.asiainfo.dao.GoodsDao' mapperInterface. Bean already defined with the same name!
+2017-07-04 17:17:53.027  WARN 9056 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.asiainfo.dao]' package. Please check your configuration.
+2017-07-04 17:17:59.706  INFO 5008 --- [restartedMain] com.asiainfo.dao.GoodsDaoTest            : Starting GoodsDaoTest on liuguo-PC with PID 5008 (D:\IdeaWorkSpace\BootStudy\littleBird\target\test-classes started by Administrator in D:\IdeaWorkSpace\BootStudy)
+2017-07-04 17:17:59.708  INFO 5008 --- [restartedMain] com.asiainfo.dao.GoodsDaoTest            : No active profile set, falling back to default profiles: default
+2017-07-04 17:17:59.800  INFO 5008 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@51923b7: startup date [Tue Jul 04 17:17:59 CST 2017]; root of context hierarchy
+2017-07-04 17:18:01.409  WARN 5008 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'goodsDao' and 'com.asiainfo.dao.GoodsDao' mapperInterface. Bean already defined with the same name!
+2017-07-04 17:18:01.410  WARN 5008 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.asiainfo.dao]' package. Please check your configuration.
+2017-07-04 17:18:03.424  INFO 5008 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8083 (http)
+2017-07-04 17:18:03.450  INFO 5008 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2017-07-04 17:18:03.452  INFO 5008 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.15
+2017-07-04 17:18:03.615  INFO 5008 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-07-04 17:18:03.616  INFO 5008 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3821 ms
+2017-07-04 17:18:03.880  INFO 5008 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-07-04 17:18:03.886  INFO 5008 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-07-04 17:18:03.887  INFO 5008 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-07-04 17:18:03.888  INFO 5008 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-07-04 17:18:03.888  INFO 5008 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-07-04 17:18:05.272  INFO 5008 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@51923b7: startup date [Tue Jul 04 17:17:59 CST 2017]; root of context hierarchy
+2017-07-04 17:18:05.354  INFO 5008 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/goods/],methods=[POST]}" onto public java.lang.String com.asiainfo.controller.GoodsController.add(com.asiainfo.pojo.GoodsModel) throws java.io.UnsupportedEncodingException
+2017-07-04 17:18:05.356  INFO 5008 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/goods/{id}],methods=[GET]}" onto public com.asiainfo.pojo.GoodsModel com.asiainfo.controller.GoodsController.getById(int)
+2017-07-04 17:18:05.361  INFO 5008 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-07-04 17:18:05.362  INFO 5008 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-07-04 17:18:05.396  INFO 5008 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-04 17:18:05.396  INFO 5008 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-04 17:18:05.442  INFO 5008 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-04 17:18:05.767  INFO 5008 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2017-07-04 17:18:05.862  INFO 5008 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-07-04 17:18:05.864  INFO 5008 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2017-07-04 17:18:05.924  INFO 5008 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2017-07-04 17:18:05.998  INFO 5008 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8083 (http)
+2017-07-04 17:18:06.064  INFO 5008 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2017-07-04 17:18:06.288  INFO 5008 --- [restartedMain] com.asiainfo.dao.GoodsDaoTest            : GoodsModel{id=17, uuid='29700c86-17ec-458e-9d9b-6403e6dc5ae3', name='刘', imgPath='123.jpg', description='刘', gmtCreate='Tue Jul 04 10:09:06 CST 2017', gmtModified=Tue Jul 04 10:09:06 CST 2017}
+2017-07-04 17:18:06.308  INFO 5008 --- [restartedMain] com.asiainfo.dao.GoodsDaoTest            : Started GoodsDaoTest in 7.151 seconds (JVM running for 7.859)
+2017-07-04 17:18:51.481  INFO 5008 --- [Thread-7] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@51923b7: startup date [Tue Jul 04 17:17:59 CST 2017]; root of context hierarchy
+2017-07-04 17:18:51.485  INFO 5008 --- [Thread-7] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-07-04 17:18:51.486  INFO 5008 --- [Thread-7] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2017-07-04 17:18:51.490  INFO 5008 --- [Thread-7] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2017-07-04 17:18:52.192  INFO 5008 --- [restartedMain] com.asiainfo.dao.GoodsDaoTest            : Starting GoodsDaoTest on liuguo-PC with PID 5008 (D:\IdeaWorkSpace\BootStudy\littleBird\target\test-classes started by Administrator in D:\IdeaWorkSpace\BootStudy)
+2017-07-04 17:18:52.192  INFO 5008 --- [restartedMain] com.asiainfo.dao.GoodsDaoTest            : No active profile set, falling back to default profiles: default
+2017-07-04 17:18:52.201  INFO 5008 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@364cb034: startup date [Tue Jul 04 17:18:52 CST 2017]; root of context hierarchy
+2017-07-04 17:18:52.835  WARN 5008 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'goodsDao' and 'com.asiainfo.dao.GoodsDao' mapperInterface. Bean already defined with the same name!
+2017-07-04 17:18:52.835  WARN 5008 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.asiainfo.dao]' package. Please check your configuration.
+2017-07-04 17:18:53.087  INFO 5008 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8083 (http)
+2017-07-04 17:18:53.088  INFO 5008 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2017-07-04 17:18:53.090  INFO 5008 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.15
+2017-07-04 17:18:53.157  INFO 5008 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-07-04 17:18:53.158  INFO 5008 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 957 ms
+2017-07-04 17:18:53.210  INFO 5008 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-07-04 17:18:53.211  INFO 5008 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-07-04 17:18:53.211  INFO 5008 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-07-04 17:18:53.211  INFO 5008 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-07-04 17:18:53.211  INFO 5008 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-07-04 17:18:53.702  INFO 5008 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@364cb034: startup date [Tue Jul 04 17:18:52 CST 2017]; root of context hierarchy
+2017-07-04 17:18:53.728  INFO 5008 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/goods/],methods=[POST]}" onto public java.lang.String com.asiainfo.controller.GoodsController.add(com.asiainfo.pojo.GoodsModel) throws java.io.UnsupportedEncodingException
+2017-07-04 17:18:53.729  INFO 5008 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/goods/{id}],methods=[GET]}" onto public com.asiainfo.pojo.GoodsModel com.asiainfo.controller.GoodsController.getById(int)
+2017-07-04 17:18:53.733  INFO 5008 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-07-04 17:18:53.734  INFO 5008 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-07-04 17:18:53.752  INFO 5008 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-04 17:18:53.752  INFO 5008 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-04 17:18:53.785  INFO 5008 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-04 17:18:53.859  INFO 5008 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2017-07-04 17:18:54.011  INFO 5008 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-07-04 17:18:54.013  INFO 5008 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2017-07-04 17:18:54.018  INFO 5008 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2017-07-04 17:18:54.139  INFO 5008 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8083 (http)
+2017-07-04 17:18:54.163  INFO 5008 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} inited
+2017-07-04 17:18:54.212  INFO 5008 --- [restartedMain] com.asiainfo.dao.GoodsDaoTest            : GoodsModel{id=17, uuid='29700c86-17ec-458e-9d9b-6403e6dc5ae3', name='刘', imgPath='123.jpg', description='刘', gmtCreate='Tue Jul 04 10:09:06 CST 2017', gmtModified=Tue Jul 04 10:09:06 CST 2017}
+2017-07-04 17:18:54.216  INFO 5008 --- [restartedMain] com.asiainfo.dao.GoodsDaoTest            : Started GoodsDaoTest in 2.149 seconds (JVM running for 55.765)
+2017-07-04 17:19:14.477  INFO 5008 --- [Thread-11] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@364cb034: startup date [Tue Jul 04 17:18:52 CST 2017]; root of context hierarchy
+2017-07-04 17:19:14.483  INFO 5008 --- [Thread-11] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-07-04 17:19:14.490  INFO 5008 --- [Thread-11] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2017-07-04 17:19:14.492  INFO 5008 --- [Thread-11] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} closed
+2017-07-04 17:19:15.315  INFO 5008 --- [restartedMain] com.asiainfo.dao.GoodsDaoTest            : Starting GoodsDaoTest on liuguo-PC with PID 5008 (D:\IdeaWorkSpace\BootStudy\littleBird\target\test-classes started by Administrator in D:\IdeaWorkSpace\BootStudy)
+2017-07-04 17:19:15.316  INFO 5008 --- [restartedMain] com.asiainfo.dao.GoodsDaoTest            : No active profile set, falling back to default profiles: default
+2017-07-04 17:19:15.321  INFO 5008 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@8ca20d7: startup date [Tue Jul 04 17:19:15 CST 2017]; root of context hierarchy
+2017-07-04 17:19:16.003  WARN 5008 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'goodsDao' and 'com.asiainfo.dao.GoodsDao' mapperInterface. Bean already defined with the same name!
+2017-07-04 17:19:16.004  WARN 5008 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.asiainfo.dao]' package. Please check your configuration.
+2017-07-04 17:19:16.204  INFO 5008 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8083 (http)
+2017-07-04 17:19:16.205  INFO 5008 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2017-07-04 17:19:16.205  INFO 5008 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.15
+2017-07-04 17:19:16.229  INFO 5008 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-07-04 17:19:16.230  INFO 5008 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 909 ms
+2017-07-04 17:19:16.268  INFO 5008 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-07-04 17:19:16.269  INFO 5008 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-07-04 17:19:16.269  INFO 5008 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-07-04 17:19:16.270  INFO 5008 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-07-04 17:19:16.270  INFO 5008 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-07-04 17:19:16.501  INFO 5008 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@8ca20d7: startup date [Tue Jul 04 17:19:15 CST 2017]; root of context hierarchy
+2017-07-04 17:19:16.516  INFO 5008 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/goods/],methods=[POST]}" onto public java.lang.String com.asiainfo.controller.GoodsController.add(com.asiainfo.pojo.GoodsModel) throws java.io.UnsupportedEncodingException
+2017-07-04 17:19:16.516  INFO 5008 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/goods/{id}],methods=[GET]}" onto public com.asiainfo.pojo.GoodsModel com.asiainfo.controller.GoodsController.getById(int)
+2017-07-04 17:19:16.519  INFO 5008 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-07-04 17:19:16.520  INFO 5008 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-07-04 17:19:16.549  INFO 5008 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-04 17:19:16.549  INFO 5008 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-04 17:19:16.569  INFO 5008 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-04 17:19:16.621  INFO 5008 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2017-07-04 17:19:16.694  INFO 5008 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-07-04 17:19:16.695  INFO 5008 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2017-07-04 17:19:16.699  INFO 5008 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2017-07-04 17:19:16.719  INFO 5008 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8083 (http)
+2017-07-04 17:19:16.728  INFO 5008 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-3} inited
+2017-07-04 17:19:16.756  INFO 5008 --- [restartedMain] com.asiainfo.dao.GoodsDaoTest            : GoodsModel{id=17, uuid='29700c86-17ec-458e-9d9b-6403e6dc5ae3', name='刘', imgPath='123.jpg', description='刘', gmtCreate='Tue Jul 04 10:09:06 CST 2017', gmtModified=Tue Jul 04 10:09:06 CST 2017}
+2017-07-04 17:19:16.760  INFO 5008 --- [restartedMain] com.asiainfo.dao.GoodsDaoTest            : Started GoodsDaoTest in 1.558 seconds (JVM running for 78.309)
+2017-07-04 17:21:16.851  INFO 5008 --- [Thread-18] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@8ca20d7: startup date [Tue Jul 04 17:19:15 CST 2017]; root of context hierarchy
+2017-07-04 17:21:16.853  INFO 5008 --- [Thread-18] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-07-04 17:21:16.853  INFO 5008 --- [Thread-18] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2017-07-04 17:21:16.858  INFO 5008 --- [Thread-18] com.alibaba.druid.pool.DruidDataSource   : {dataSource-3} closed
+2017-07-04 17:21:17.528  INFO 5008 --- [restartedMain] com.asiainfo.dao.GoodsDaoTest            : Starting GoodsDaoTest on liuguo-PC with PID 5008 (D:\IdeaWorkSpace\BootStudy\littleBird\target\test-classes started by Administrator in D:\IdeaWorkSpace\BootStudy)
+2017-07-04 17:21:17.528  INFO 5008 --- [restartedMain] com.asiainfo.dao.GoodsDaoTest            : No active profile set, falling back to default profiles: default
+2017-07-04 17:21:17.532  INFO 5008 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@219a34e6: startup date [Tue Jul 04 17:21:17 CST 2017]; root of context hierarchy
+2017-07-04 17:21:18.181  WARN 5008 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'goodsDao' and 'com.asiainfo.dao.GoodsDao' mapperInterface. Bean already defined with the same name!
+2017-07-04 17:21:18.182  WARN 5008 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.asiainfo.dao]' package. Please check your configuration.
+2017-07-04 17:21:18.425  INFO 5008 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8083 (http)
+2017-07-04 17:21:18.426  INFO 5008 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2017-07-04 17:21:18.426  INFO 5008 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.15
+2017-07-04 17:21:18.458  INFO 5008 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-07-04 17:21:18.458  INFO 5008 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 926 ms
+2017-07-04 17:21:18.491  INFO 5008 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-07-04 17:21:18.492  INFO 5008 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-07-04 17:21:18.492  INFO 5008 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-07-04 17:21:18.492  INFO 5008 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-07-04 17:21:18.492  INFO 5008 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-07-04 17:21:18.691  INFO 5008 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@219a34e6: startup date [Tue Jul 04 17:21:17 CST 2017]; root of context hierarchy
+2017-07-04 17:21:18.700  INFO 5008 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/goods/],methods=[POST]}" onto public java.lang.String com.asiainfo.controller.GoodsController.add(com.asiainfo.pojo.GoodsModel) throws java.io.UnsupportedEncodingException
+2017-07-04 17:21:18.700  INFO 5008 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/goods/{id}],methods=[GET]}" onto public com.asiainfo.pojo.GoodsModel com.asiainfo.controller.GoodsController.getById(int)
+2017-07-04 17:21:18.705  INFO 5008 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-07-04 17:21:18.706  INFO 5008 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-07-04 17:21:18.721  INFO 5008 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-04 17:21:18.722  INFO 5008 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-04 17:21:18.746  INFO 5008 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-04 17:21:18.794  INFO 5008 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2017-07-04 17:21:18.888  INFO 5008 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-07-04 17:21:18.889  INFO 5008 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2017-07-04 17:21:18.894  INFO 5008 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2017-07-04 17:21:18.914  INFO 5008 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8083 (http)
+2017-07-04 17:21:18.919  INFO 5008 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-4} inited
+2017-07-04 17:21:18.997  INFO 5008 --- [restartedMain] com.asiainfo.dao.GoodsDaoTest            : GoodsModel{id=17, uuid='29700c86-17ec-458e-9d9b-6403e6dc5ae3', name='刘', imgPath='123.jpg', description='刘', gmtCreate='Tue Jul 04 10:09:06 CST 2017', gmtModified=Tue Jul 04 10:09:06 CST 2017}
+2017-07-04 17:21:19.004  INFO 5008 --- [restartedMain] com.asiainfo.dao.GoodsDaoTest            : Started GoodsDaoTest in 1.542 seconds (JVM running for 200.55)
+2017-07-04 17:21:44.394  INFO 5008 --- [Thread-25] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@219a34e6: startup date [Tue Jul 04 17:21:17 CST 2017]; root of context hierarchy
+2017-07-04 17:21:44.396  INFO 5008 --- [Thread-25] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-07-04 17:21:44.397  INFO 5008 --- [Thread-25] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2017-07-04 17:21:44.399  INFO 5008 --- [Thread-25] com.alibaba.druid.pool.DruidDataSource   : {dataSource-4} closed
+2017-07-04 17:21:45.126  INFO 5008 --- [restartedMain] com.asiainfo.dao.GoodsDaoTest            : Starting GoodsDaoTest on liuguo-PC with PID 5008 (D:\IdeaWorkSpace\BootStudy\littleBird\target\test-classes started by Administrator in D:\IdeaWorkSpace\BootStudy)
+2017-07-04 17:21:45.126  INFO 5008 --- [restartedMain] com.asiainfo.dao.GoodsDaoTest            : No active profile set, falling back to default profiles: default
+2017-07-04 17:21:45.130  INFO 5008 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@d456701: startup date [Tue Jul 04 17:21:45 CST 2017]; root of context hierarchy
+2017-07-04 17:21:45.834  WARN 5008 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'goodsDao' and 'com.asiainfo.dao.GoodsDao' mapperInterface. Bean already defined with the same name!
+2017-07-04 17:21:45.834  WARN 5008 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.asiainfo.dao]' package. Please check your configuration.
+2017-07-04 17:21:46.034  INFO 5008 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8083 (http)
+2017-07-04 17:21:46.034  INFO 5008 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2017-07-04 17:21:46.034  INFO 5008 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.15
+2017-07-04 17:21:46.060  INFO 5008 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-07-04 17:21:46.061  INFO 5008 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 931 ms
+2017-07-04 17:21:46.092  INFO 5008 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-07-04 17:21:46.092  INFO 5008 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-07-04 17:21:46.092  INFO 5008 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-07-04 17:21:46.092  INFO 5008 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-07-04 17:21:46.113  INFO 5008 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-07-04 17:21:46.326  INFO 5008 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@d456701: startup date [Tue Jul 04 17:21:45 CST 2017]; root of context hierarchy
+2017-07-04 17:21:46.340  INFO 5008 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/goods/],methods=[POST]}" onto public java.lang.String com.asiainfo.controller.GoodsController.add(com.asiainfo.pojo.GoodsModel) throws java.io.UnsupportedEncodingException
+2017-07-04 17:21:46.340  INFO 5008 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/goods/{id}],methods=[GET]}" onto public com.asiainfo.pojo.GoodsModel com.asiainfo.controller.GoodsController.getById(int)
+2017-07-04 17:21:46.343  INFO 5008 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-07-04 17:21:46.344  INFO 5008 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-07-04 17:21:46.355  INFO 5008 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-04 17:21:46.355  INFO 5008 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-04 17:21:46.376  INFO 5008 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-04 17:21:46.425  INFO 5008 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2017-07-04 17:21:46.504  INFO 5008 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-07-04 17:21:46.504  INFO 5008 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2017-07-04 17:21:46.507  INFO 5008 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2017-07-04 17:21:46.523  INFO 5008 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8083 (http)
+2017-07-04 17:21:46.527  INFO 5008 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-5} inited
+2017-07-04 17:21:46.590  INFO 5008 --- [restartedMain] com.asiainfo.dao.GoodsDaoTest            : GoodsModel{id=17, uuid='29700c86-17ec-458e-9d9b-6403e6dc5ae3', name='刘', imgPath='123.jpg', description='刘', gmtCreate='Tue Jul 04 10:09:06 CST 2017', gmtModified=Tue Jul 04 10:09:06 CST 2017}
+2017-07-04 17:21:46.593  INFO 5008 --- [restartedMain] com.asiainfo.dao.GoodsDaoTest            : Started GoodsDaoTest in 1.551 seconds (JVM running for 228.138)
+2017-07-04 17:22:59.314  INFO 5008 --- [Thread-32] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@d456701: startup date [Tue Jul 04 17:21:45 CST 2017]; root of context hierarchy
+2017-07-04 17:22:59.315  INFO 5008 --- [Thread-32] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-07-04 17:22:59.316  INFO 5008 --- [Thread-32] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2017-07-04 17:22:59.317  INFO 5008 --- [Thread-32] com.alibaba.druid.pool.DruidDataSource   : {dataSource-5} closed

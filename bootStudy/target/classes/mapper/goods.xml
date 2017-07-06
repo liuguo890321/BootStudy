@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="com.asiainfo.mapper.GoodsMapper" >
+    <delete id="deleteByid" parameterType="Goods">
+        delete from td_goods where id = #{id}
+    </delete>
+
+    <select id="getById" parameterType="int" resultMap="goodsModel">
+        select id,uuid,name,img_path,description,gmt_create,gmt_modified
+        from td_goods where id = #{id}
+    </select>
+
+</mapper>

@@ -1,0 +1,11 @@
+com\asiainfo\service\BaseService.class
+com\asiainfo\util\MapUtil.class
+com\asiainfo\util\pageUtil\PageInterceptor.class
+com\asiainfo\util\ReflectionUtil.class
+com\asiainfo\App.class
+com\asiainfo\service\iml\BaseServiceImpl.class
+com\asiainfo\dao\BaseDao.class
+com\asiainfo\remote\impl\RestTemplateRemote.class
+com\asiainfo\remote\Remoteable.class
+com\asiainfo\util\DateUtils.class
+com\asiainfo\util\pageUtil\Page.class
