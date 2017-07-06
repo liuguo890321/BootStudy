@@ -45,7 +45,7 @@ public class MysqlTest implements CommandLineRunner{
     public void run(String... strings) throws Exception {
 //        System.out.print("goods=" + this.goodMapper.getGoodByid(1).getDescription());
 //        this.goodMapper.deleteByid(new Goods(1));
-        System.out.print("goods=11" + this.goodMapper.getGoodsCount());
+        System.out.print("goods=1111" + this.goodMapper.getGoodsCount());
           System.out.print(this.url + this.name);
 
     }
